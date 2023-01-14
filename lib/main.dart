@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/button1.dart';
 import 'package:flutter_application_1/button2.dart';
-
 import 'package:get/get.dart';
-
 import 'button3.dart';
 import 'button4.dart';
 
@@ -45,6 +43,9 @@ class MyApp extends StatelessWidget {
                         child: Text('Algoritm')),
                   ],
                 ),
+                SizedBox(
+                  height: 12,
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -52,7 +53,7 @@ class MyApp extends StatelessWidget {
                         onPressed: (() {
                           Get.toNamed('page3');
                         }),
-                        child: Text('SnackBar')),
+                        child: Text('Apicall')),
                     OutlinedButton(
                         onPressed: (() {
                           Get.toNamed('page4');
